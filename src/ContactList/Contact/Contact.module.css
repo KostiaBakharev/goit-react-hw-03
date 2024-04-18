@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  justify-content: space-between;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.item:hover {
+  background-color: #f0f0f0;
+}
+
+.button {
+  background-color: rgb(241, 128, 128);
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(223, 50, 50);
+}
