@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import css from "./App.module.css";
-import ContactsList from "./ContactList/ContactList";
-import SearchBox from "./SearchBox/SearchBox";
+import ContactsList from "./components/ContactList/ContactList";
+import SearchBox from "./components/SearchBox/SearchBox";
 import { initialContactsState } from "./utils/constants";
 import { nanoid } from "nanoid";
-import ContactForm from "./ContactForm/ContactForm";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 function App() {
   const [users, setUsers] = useState(() => {
